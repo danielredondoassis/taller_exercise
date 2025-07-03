@@ -18,6 +18,10 @@ screenshots/login_screen.png
       ### 🔐 Login Screen - Field Validation III
       <img src="screenshots/Screenshot_20250703_010157.png" alt="Login Screen - Field Validation III" width="300"/>
     </td>
+  </tr>
+</table>
+<table>
+  <tr>
     <td>
       ### 🔐 Login Screen - Login Error
       <img src="screenshots/Screenshot_20250703_010232.png" alt="Login Screen - Login Error" width="300"/>
