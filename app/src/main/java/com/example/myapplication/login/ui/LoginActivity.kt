@@ -1,4 +1,4 @@
-package com.example.taller.login.ui
+package com.example.myapplication.login.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.lifecycleScope
-import com.example.taller.MainActivity
-import com.example.taller.R
-import com.example.taller.databinding.LoginActivityBinding
-import com.example.taller.login.model.LoginViewModel
-import com.example.taller.login.usecase.CredentialsValidatorUseCaseImpl
+import com.example.myapplication.MainActivity
+import com.example.myapplication.R
+import com.example.myapplication.databinding.LoginActivityBinding
+import com.example.myapplication.login.model.LoginViewModel
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCaseImpl
 import org.koin.android.ext.android.inject
 
 class LoginActivity : AppCompatActivity() {

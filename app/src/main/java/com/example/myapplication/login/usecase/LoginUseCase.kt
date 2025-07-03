@@ -1,4 +1,4 @@
-package com.example.taller.login.usecase
+package com.example.myapplication.login.usecase
 
 interface LoginUseCase {
 

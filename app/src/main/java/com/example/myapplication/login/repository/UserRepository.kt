@@ -1,4 +1,4 @@
-package com.example.taller.login.repository
+package com.example.myapplication.login.repository
 
 interface UserRepository {
 

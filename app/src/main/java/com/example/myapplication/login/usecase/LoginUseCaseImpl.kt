@@ -1,6 +1,6 @@
-package com.example.taller.login.usecase
+package com.example.myapplication.login.usecase
 
-import com.example.taller.login.repository.UserRepository
+import com.example.myapplication.login.repository.UserRepository
 
 class LoginUseCaseImpl(private val userRepository: UserRepository) : LoginUseCase {
 

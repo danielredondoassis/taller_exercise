@@ -1,10 +1,10 @@
-package com.example.taller.login.model
+package com.example.myapplication.login.model
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.taller.login.state.LoginUiState
-import com.example.taller.login.usecase.LoginUseCase
-import com.example.taller.login.usecase.CredentialsValidatorUseCase
+import com.example.myapplication.login.state.LoginUiState
+import com.example.myapplication.login.usecase.LoginUseCase
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCase
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

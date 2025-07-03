@@ -1,6 +1,6 @@
-package com.example.taller.login.usecase
+package com.example.myapplication.login.usecase
 
-import com.example.taller.login.usecase.CredentialsValidatorUseCaseImpl.PasswordStrength
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCaseImpl.PasswordStrength
 
 interface CredentialsValidatorUseCase {
 

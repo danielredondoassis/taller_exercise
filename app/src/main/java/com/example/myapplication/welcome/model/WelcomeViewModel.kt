@@ -1,4 +1,4 @@
-package com.example.taller.welcome.model
+package com.example.myapplication.welcome.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

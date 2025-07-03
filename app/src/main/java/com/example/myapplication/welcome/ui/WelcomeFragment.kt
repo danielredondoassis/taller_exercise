@@ -1,4 +1,4 @@
-package com.example.taller.welcome.ui
+package com.example.myapplication.welcome.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.taller.welcome.model.WelcomeViewModel
-import com.example.taller.databinding.FragmentWelcomeBinding
+import com.example.myapplication.databinding.FragmentWelcomeBinding
+import com.example.myapplication.welcome.model.WelcomeViewModel
 
 class WelcomeFragment : Fragment() {
 

@@ -1,6 +1,6 @@
-package com.example.taller
+package com.example.myapplication
 
-import com.example.taller.login.usecase.CredentialsValidatorUseCaseImpl
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCaseImpl
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test

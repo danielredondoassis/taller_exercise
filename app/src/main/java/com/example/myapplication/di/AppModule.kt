@@ -1,12 +1,12 @@
-package com.example.taller.di
+package com.example.myapplication.di
 
-import com.example.taller.login.model.LoginViewModel
-import com.example.taller.login.repository.UserRepository
-import com.example.taller.login.repository.UserRepositoryImpl
-import com.example.taller.login.usecase.LoginUseCase
-import com.example.taller.login.usecase.LoginUseCaseImpl
-import com.example.taller.login.usecase.CredentialsValidatorUseCase
-import com.example.taller.login.usecase.CredentialsValidatorUseCaseImpl
+import com.example.myapplication.login.model.LoginViewModel
+import com.example.myapplication.login.repository.UserRepository
+import com.example.myapplication.login.repository.UserRepositoryImpl
+import com.example.myapplication.login.usecase.LoginUseCase
+import com.example.myapplication.login.usecase.LoginUseCaseImpl
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCase
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCaseImpl
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

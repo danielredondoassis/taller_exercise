@@ -1,6 +1,6 @@
-package com.example.taller.login.state
+package com.example.myapplication.login.state
 
-import com.example.taller.login.usecase.CredentialsValidatorUseCaseImpl
+import com.example.myapplication.login.usecase.CredentialsValidatorUseCaseImpl
 
 data class LoginUiState(
     val emailError: Boolean = false,

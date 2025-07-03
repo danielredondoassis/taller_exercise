@@ -1,9 +1,6 @@
-package com.example.taller.login.usecase
+package com.example.myapplication.login.usecase
 
 class CredentialsValidatorUseCaseImpl : CredentialsValidatorUseCase {
-
-    data class ValidationResult(val isValid: Boolean, val errorMessage: String?)
-
 
     enum class PasswordStrength {
         WEAK, MEDIUM, STRONG
@@ -18,13 +15,19 @@ class CredentialsValidatorUseCaseImpl : CredentialsValidatorUseCase {
     }
 
     override fun isValidPassword(password: String): Boolean {
-        return password.isNotBlank() && password.length >= PASSWORD_MIN_SIZE && password.contains(Regex(REGEX_PASSWORD_VALIDATION))
+        return password.isNotBlank() && password.length >= PASSWORD_MIN_SIZE && password.contains(Regex(
+            REGEX_PASSWORD_VALIDATION
+        ))
     }
 
     override fun checkPasswordStrength(password: String): PasswordStrength {
         return when {
-            password.isNotBlank() && password.length >= PASSWORD_MAX_SIZE && password.contains(Regex(REGEX_PASSWORD_VALIDATION)) -> PasswordStrength.STRONG
-            password.isNotBlank() && password.length >= PASSWORD_MIN_SIZE && password.contains(Regex(REGEX_PASSWORD_VALIDATION)) -> PasswordStrength.MEDIUM
+            password.isNotBlank() && password.length >= PASSWORD_MAX_SIZE && password.contains(Regex(
+                REGEX_PASSWORD_VALIDATION
+            )) -> PasswordStrength.STRONG
+            password.isNotBlank() && password.length >= PASSWORD_MIN_SIZE && password.contains(Regex(
+                REGEX_PASSWORD_VALIDATION
+            )) -> PasswordStrength.MEDIUM
             else -> PasswordStrength.WEAK
         }
     }

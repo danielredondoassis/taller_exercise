@@ -1,7 +1,7 @@
-package com.example.taller
+package com.example.myapplication
 
-import com.example.taller.login.repository.UserRepository
-import com.example.taller.login.usecase.LoginUseCaseImpl
+import com.example.myapplication.login.repository.UserRepository
+import com.example.myapplication.login.usecase.LoginUseCaseImpl
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.*
