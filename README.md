@@ -99,14 +99,6 @@ Material Design Components
 
 Unit Testing with MockK, JUnit4
 
-🚀 Getting Started
-
-# Clone the project
-$ git clone git@github.com:danielredondoassis/taller_exercise.git
-
-# Open with Android Studio Hedgehog or newer
-# Run the project on an emulator or device
-
 📂 Key Files to Explore
 
 File
