@@ -2,6 +2,17 @@ Taller Exercise — Android Clean Architecture Sample
 
 This project demonstrates a clean implementation of Login + Welcome flow using Clean Architecture and SOLID principles in a simple Android app.
 
+screenshots/login_screen.png
+
+### 🔐 Login Screen
+![Login Screen - Field Validation I](screenshots/Screenshot_20250703_010113.png)
+![Login Screen - Field Validation II](screenshots/Screenshot_20250703_010148.png)
+![Login Screen - Field Validation III](screenshots/Screenshot_20250703_010157.png)
+![Login Screen - Login Error](screenshots/Screenshot_20250703_010232.png)
+
+### 🎉 Welcome Screen
+![Welcome Screen](screenshots/Screenshot_20250703_010206.png)
+
 🧱 Architecture Overview
 
 The app follows the Clean Architecture structure, dividing responsibilities into clear layers:
