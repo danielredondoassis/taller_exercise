@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- Welcome Screen -->
+
+    <string name="title_welcome_screen">Welcome Screen</string>
+
+    <!-- Login Screen -->
+    <string name="login_header_email">Email</string>
+    <string name="login_header_password">Password</string>
+    <string name="login_button_login_user">Login</string>
+    <string name="login_password_strength_weak">Weak password</string>
+    <string name="login_password_strength_medium">Medium password</string>
+    <string name="login_password_strength_strong">Strong password</string>
+    <string name="login_invalid_password">Please insert a valid password</string>
+    <string name="login_invalid_email">Please insert a valid email</string>
+    <string name="login_error">An error occurred trying to log you in, please try again</string>
+
+</resources>
