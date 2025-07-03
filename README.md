@@ -5,13 +5,13 @@ This project demonstrates a clean implementation of Login + Welcome flow using C
 screenshots/login_screen.png
 
 ### 🔐 Login Screen
-![Login Screen - Field Validation I](screenshots/Screenshot_20250703_010113.png)
-![Login Screen - Field Validation II](screenshots/Screenshot_20250703_010148.png)
-![Login Screen - Field Validation III](screenshots/Screenshot_20250703_010157.png)
-![Login Screen - Login Error](screenshots/Screenshot_20250703_010232.png)
+<img src="screenshots/Screenshot_20250703_010113.png" alt="Login Screen - Field Validation I" width="300"/>
+<img src="screenshots/Screenshot_20250703_010148.png" alt="Login Screen - Field Validation II" width="300"/>
+<img src="screenshots/Screenshot_20250703_010157.png" alt="Login Screen - Field Validation III" width="300"/>
+<img src="screenshots/Screenshot_20250703_010232.png" alt="Login Screen - Login Error" width="300"/>
 
 ### 🎉 Welcome Screen
-![Welcome Screen](screenshots/Screenshot_20250703_010206.png)
+<img src="screenshots/Screenshot_20250703_010206.png" alt="Welcome Screen" width="300"/>
 
 🧱 Architecture Overview
 
